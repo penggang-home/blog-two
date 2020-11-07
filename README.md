@@ -1,2 +1,7 @@
-# blog-two
-第二次尝试做博客
+# This is VuePress Project
+If you want to run:
+npm install
+
+then
+
+npm run dev

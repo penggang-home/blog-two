@@ -1,0 +1,21 @@
+{
+  "name": "blog-two",
+  "version": "1.0.0",
+  "description": "第二次尝试做博客",
+  "main": "index.js",
+  "scripts": {
+    "dev":"vuepress dev docs",
+    "build":"vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penggang-home/blog-two.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penggang-home/blog-two/issues"
+  },
+  "homepage": "https://github.com/penggang-home/blog-two#readme"
+}
