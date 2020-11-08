@@ -19,3 +19,9 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 :::tip README
 ### This is README.md
 :::
+
+::: details 神秘代码
+```js
+console.log()
+追加 travis CI 自动化部署
+```
