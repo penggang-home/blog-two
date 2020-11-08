@@ -4,9 +4,9 @@ const sidebarConfig = require('./config/sidebar')
 module.exports = {
   // base: '/blog-two/',
 
-  
-  title: '彭先生的个人网站',
-  description: '彭先生的个人网站',
+
+  title: '彭先生的主页',
+  description: '彭先生的主页',
   // dest: './dist',//默认在 .vuepress 下
   port: '7777',
   head: [
@@ -15,6 +15,13 @@ module.exports = {
     // 作者
     ['meta', { name: 'author', content: '彭先生' }],
     ['link', { rel: 'icon', href: 'https://cn.vuejs.org/images/logo.png' }],
+    ['script', {}, `var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?cd767ed69c727fb711285ff9f162347e";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();`]
   ],
   markdown: {
     lineNumbers: true
