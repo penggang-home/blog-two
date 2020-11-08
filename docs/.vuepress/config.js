@@ -4,7 +4,6 @@ const sidebarConfig = require('./config/sidebar')
 module.exports = {
   // base: '/blog-two/',
 
-
   title: '彭先生的主页',
   description: '彭先生的主页',
   // dest: './dist',//默认在 .vuepress 下
@@ -27,6 +26,7 @@ module.exports = {
     lineNumbers: true
   },
   themeConfig: {
+    smoothScroll: true,
     nav: navConfig,
     sidebar: sidebarConfig,
     sidebarDepth: 2,

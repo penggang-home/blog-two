@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/penggang-home/blog-two/issues"
   },
-  "homepage": "https://github.com/penggang-home/blog-two#readme"
+  "homepage": "https://github.com/penggang-home/blog-two#readme",
+  "devDependencies": {}
 }
