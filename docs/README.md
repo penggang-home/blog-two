@@ -25,3 +25,5 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 console.log()
 追加 travis CI 自动化部署
 ```
+
+npm ci 更改为 npm install
