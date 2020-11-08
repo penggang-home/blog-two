@@ -3,6 +3,7 @@ const sidebarConfig = require('./config/sidebar')
 
 module.exports = {
   base: '/blog-two/',
+  // 网页的 title和左上角 绑定此处的值
   title: '彭先生的个人网站',
   description: '彭先生的个人网站',
   // dest: './dist',//默认在 .vuepress 下
@@ -23,6 +24,7 @@ module.exports = {
     sidebarDepth: 2,
     displayAllHeaders: true, // 默认值：false 显示所有的侧边栏
     lastUpdated: 'Last Updated',
+    //导航栏左上角 logo
     logo: "/images/logo.png",
     searchMaxSuggestoins: 10,
     serviceWorker: {
