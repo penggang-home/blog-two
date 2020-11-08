@@ -4,6 +4,8 @@
   "description": "第二次尝试做博客",
   "main": "index.js",
   "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh",
