@@ -2,9 +2,10 @@ const navConfig = require('./config/nav')
 const sidebarConfig = require('./config/sidebar')
 
 module.exports = {
+  base: '/blog-two/',
   title: '彭先生的个人网站',
   description: '彭先生的个人网站',
-  dest: './dist',//默认在 .vuepress 下
+  // dest: './dist',//默认在 .vuepress 下
   port: '7777',
   head: [
     // 关键词
@@ -22,6 +23,7 @@ module.exports = {
     sidebarDepth: 2,
     displayAllHeaders: true, // 默认值：false 显示所有的侧边栏
     lastUpdated: 'Last Updated',
+    logo: "/images/logo.png",
     searchMaxSuggestoins: 10,
     serviceWorker: {
       updatePopup: {
